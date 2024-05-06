@@ -18,6 +18,10 @@ public class SmartTv {
         volume--;
     }
 
+    /**
+     * mudar para o canal indicado via parametro
+     * @param canal
+     */
     public void mudarCanal(int canal){
         this.canal = canal;
     }
